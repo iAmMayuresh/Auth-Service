@@ -5,6 +5,6 @@ Resources:
     Properties:
       TaskDefinition:
       LoadBalancerInfo:
-        ContainerName: "902477_authservice"
+        ContainerName: "audit-auth-mayu-container"
         ContainerPort: "8000"
       PlatformVersion: "Latest"
