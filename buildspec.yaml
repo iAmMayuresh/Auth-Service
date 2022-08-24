@@ -26,6 +26,6 @@ phases:
     - echo Pushing docker image
     - docker push $IMAGE_URI
     - echo Writing image definitions file...
-    - printf '[{"name":"audit-auth-mayu-ecr","imageUri":"%s"}]' 860061945305.dkr.ecr.ap-south-1.amazonaws.com/audit-auth-mayu-ecr:auth > imagedefinitions.json
+    - printf '[{"name":"audit-auth-mayu-container-rds","imageUri":"%s"}]' 860061945305.dkr.ecr.ap-south-1.amazonaws.com/audit-auth-mayu-ecr:auth > imagedefinitions.json
 artifacts:
   files: imagedefinitions.json
